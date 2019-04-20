@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: dwarf_gyrocopter_albedo
+  m_Shader: {fileID: 4800000, guid: abb6757cbdcd3744e873e64a07fa4b15, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: bb0634fae7128294fa767b1b5b47d4e9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CampMap:
+        m_Texture: {fileID: 2800000, guid: 370ff82774b20b7499bd79c57bcf4f36, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 87d2a2adbe8a56242b1f6d81bc29ea9a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCap:
+        m_Texture: {fileID: 2800000, guid: 40f4a4ceb3b1f944dadd6661ba35ad5a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCapSpec:
+        m_Texture: {fileID: 2800000, guid: 9b94031c462e8544a8b029f3c3565ca6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MixedMap:
+        m_Texture: {fileID: 2800000, guid: ace3855ab1cca0e47875212d62564569, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoughnessTex:
+        m_Texture: {fileID: 2800000, guid: bdffce5bdc2fe3d43a57c71bcd14bcde, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 1
+    - _BumpScale: 1
+    - _Cull: 2
+    - _Cutoff: 0
+    - _Darkface: 0.7
+    - _DarkfaceMin: 0.02
+    - _DarkfaceRange: 0.15
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EmissionBakeScale: 0
+    - _FullOcclusion: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _LightmapSpecular: 1
+    - _MatCapValue: 1.72
+    - _MetalRef: 0.128
+    - _Metallic: 0
+    - _MetallicScale: 1
+    - _Mode: 0
+    - _Normal: 1
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Pow: 1
+    - _Reflect: 0.5
+    - _ReflectionMode: 0
+    - _RotDarkface: 0
+    - _RotDiff: 2.03
+    - _RotSpec: 2.6
+    - _Roughness: 1
+    - _ShadowAlpha: 0
+    - _ShadowFalloff: 0
+    - _ShadowY: 0
+    - _ShadowZ: 0
+    - _ShowShadow: 1
+    - _Smoothness: 0.8
+    - _SmoothnessScale: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecValue: 1.51
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Strong: 2.13
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _AdditiveEffect: {r: 0, g: 0, b: 0, a: 1}
+    - _CampColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DarkfaceColor: {r: 0.11159169, g: 0.35294116, b: 0.32298055, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _LightDir: {r: 0, g: 100, b: 0, a: 1}
+    - _MixColor: {r: 0, g: 0, b: 0, a: 0}
+    - _ShadowColor: {r: 0.03355506, g: 0.02649221, b: 0.051470578, a: 1}
